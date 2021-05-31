@@ -59,6 +59,3 @@ watch = ["notify", "gitignore"]
 serve = ["futures-util", "tokio", "warp"]
 search = ["elasticlunr-rs", "ammonia"]
 
-[[bin]]
-doc = false
-name = "mdbook"
