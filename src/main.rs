@@ -2,6 +2,7 @@
 extern crate clap;
 #[macro_use]
 extern crate log;
+extern crate fifthtry_mdbook as mdbook;
 
 use chrono::Local;
 use clap::{App, AppSettings, ArgMatches};

@@ -36,7 +36,7 @@ pub struct PreprocessorContext {
 
 impl PreprocessorContext {
     /// Create a new `PreprocessorContext`.
-    pub(crate) fn new(root: PathBuf, config: Config, renderer: String) -> Self {
+    pub fn new(root: PathBuf, config: Config, renderer: String) -> Self {
         PreprocessorContext {
             root,
             config,
